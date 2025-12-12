@@ -14,9 +14,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>19</javafx.version>
-        <attach.version>4.0.18</attach.version>
-        <gpg.plugin.version>1.6</gpg.plugin.version>
+        <javafx.version>26-ea+19</javafx.version>
+        <attach.version>4.0.24</attach.version>
+        <gpg.plugin.version>3.2.8</gpg.plugin.version>
         <maven.compiler.release>11</maven.compiler.release>
     </properties>
 
@@ -89,7 +89,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.14.1</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -129,7 +129,7 @@
                     <dependency>
                         <groupId>org.junit.jupiter</groupId>
                         <artifactId>junit-jupiter-engine</artifactId>
-                        <version>5.8.2</version>
+                        <version>6.1.0-M1</version>
                     </dependency>
                 </dependencies>
             </plugin>

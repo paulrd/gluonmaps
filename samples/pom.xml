@@ -10,8 +10,8 @@
     <name>Gluon Sample</name>
 
     <properties>
-        <javafx.version>19</javafx.version>
-        <attach.version>4.0.18</attach.version>
+        <javafx.version>26-ea+19</javafx.version>
+        <attach.version>4.0.24</attach.version>
         <maven.compiler.release>11</maven.compiler.release>
         <main.class>com.gluonhq.maps.samples.MobileSample</main.class>
         <maps.version>${project.version}</maps.version>
